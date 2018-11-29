@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>PWA.Coach Blog</title>
+        <title>PWA Coach Blog</title>
         <link>https://pwa.coach/blog</link>
-        <description>The best place to stay up-to-date with the latest PWA.Coach news and events.</description>
+        <description>The best place to stay up-to-date with the latest PWA Coach news and events.</description>
         <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>PWA.Coach Blog</title>
-            <url>https://pwa.coach/img/pwa-logo.svg</url>
+            <title>PWA Coach Blog</title>
+            <url>https://pwa.coach/</url>
             <link>https://pwa.coach/blog</link>
         </image>
-        <copyright>Copyright © 2018 Your Name or Your Company Name</copyright>
+        <copyright>Copyright © 2018 NickLewanowicz</copyright>
         <item>
             <title><![CDATA[New Version 1.0.0]]></title>
             <link>https://pwa.coach/blog/2017/10/24/new-version-1.0.0.html</link>

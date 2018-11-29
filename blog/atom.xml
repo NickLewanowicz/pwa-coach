@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pwa.coach/blog</id>
-    <title>PWA.Coach Blog</title>
+    <title>PWA Coach Blog</title>
     <updated>2017-10-24T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://pwa.coach/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest PWA.Coach news and events.</subtitle>
-    <logo>https://pwa.coach/img/pwa-logo.svg</logo>
-    <rights>Copyright © 2018 Your Name or Your Company Name</rights>
+    <subtitle>The best place to stay up-to-date with the latest PWA Coach news and events.</subtitle>
+    <logo>https://pwa.coach/</logo>
+    <rights>Copyright © 2018 NickLewanowicz</rights>
     <entry>
         <title type="html"><![CDATA[New Version 1.0.0]]></title>
         <id>https://pwa.coach/blog/2017/10/24/new-version-1.0.0.html</id>

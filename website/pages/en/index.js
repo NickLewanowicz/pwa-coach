@@ -80,9 +80,9 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="#try">Documentation</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+            <Button href={docUrl('doc1.html', language)}>Getting Started</Button>
+            <Button href='https://github.com/nicklewanowicz/pwa-coach'>Github</Button>
+            <Button href={docUrl('doc2.html', language)}>Documentation</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -103,13 +103,13 @@ const Features = () => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'This is the content of my feature',
-        image: imgUrl('PWA_ecosystem.jpg'),
+        content: 'Available on anything with a modern web browser... so basically everything',
+        image: imgUrl('PWA_crossplatform.svg'),
         imageAlign: 'top',
-        title: 'Crossplatform',
+        title: 'Cross-platform',
       },
       {
-        content: 'The content of my second feature',
+        content: 'Providing a near-native experience in a fraction of the size',
         image: imgUrl('PWA_fast.svg'),
         imageAlign: 'top',
         title: 'Fast',
@@ -131,36 +131,36 @@ const LearnHow = () => (
   <Block background="light">
     {[
       {
-        content: 'Talk about learning how to use this',
-        image: imgUrl('PWA_roadmap.jpg'),
+        content: 'With adoption from companies like Google, Facebook, Uber, Starbucks, and many more! There is no better time then the present to begin looking into PWAs. This can be tremendously difficult so our getting started section is meant to catalogue the best and most current resources to get a grasp on the big picture surounding this new technlogy. Checkout the "Getting Started" section for more...',
+        image: imgUrl('getting_started.svg'),
         imageAlign: 'right',
-        title: 'Learn How',
+        title: 'The Best Guides',
       },
     ]}
   </Block>
 );
 
 const TryOut = () => (
-  <Block id="try">
+  <Block id="docs">
     {[
       {
-        content: 'Talk about trying this out',
-        image: imgUrl('PWA_ecosystem.jpg'),
+        content: 'Already familiar with PWAs? We also have spent time building a collection of innovative and robust libraries to empower you to build the best experience for your user in a timely manner. Checkout the "docs" section for more...',
+        image: imgUrl('documentation.svg'),
         imageAlign: 'left',
-        title: 'Try it Out',
+        title: 'The Best Documentation',
       },
     ]}
   </Block>
 );
 
 const Description = () => (
-  <Block background="dark">
+  <Block background="light">
     {[
       {
-        content: 'This is another description of how this project is useful',
-        image: imgUrl('docusaurus.svg'),
+        content: 'PWA Coach would be nothing without a community of people with a common goal to permiate an understanding of progressive web experiences! We are a small community but would be stoked to have you coome along with us and contribute any resources you have made or know of to out knowledge base. Chek out the "contribute" section for more... ',
+        image: imgUrl('contribute.svg'),
         imageAlign: 'right',
-        title: 'Description',
+        title: 'The Best Community (soon)',
       },
     ]}
   </Block>
@@ -173,7 +173,7 @@ const Showcase = props => {
 
   const showcase = siteConfig.users.filter(user => user.pinned).map(user => (
     <a href={user.infoLink} key={user.infoLink}>
-      <img src={user.image} alt={user.caption} title={user.caption} />
+      <img src={imgUrl('showcase.svg')} />
     </a>
   ));
 
@@ -183,8 +183,8 @@ const Showcase = props => {
       <p>This project is used by all these people</p>
       <div className="logos">{showcase}</div>
       <div className="more-users">
-        <a className="button" href={pageUrl('users.html', props.language)}>
-          More {siteConfig.title} Users
+        <a className="button" href={pageUrl('blog')}>
+          PWA Showcase
         </a>
       </div>
     </div>
@@ -200,7 +200,6 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
           <LearnHow />
           <TryOut />
           <Description />

@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'PWA.Coach', // Title for your website.
-  tagline: 'Open Source Knowledge Base for Progressive Web Applications',
+  title: 'PWA Coach', // Title for your website.
+  tagline: 'Open Source Progressive Web Application Knowledge Base',
   url: 'https://pwa.coach', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -48,7 +48,7 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/pwa-logo.svg',
+  headerIcon: '',
   footerIcon: 'img/pwa-logo.svg',
   favicon: 'img/favicon.ico',
 
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} NickLewanowicz`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

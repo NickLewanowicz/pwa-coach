@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Popular Libraries · PWA Coach</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;It is because of open source projects that we are able to create more abitious web applications. This document is meant to be a collection of libraries that you can use to help you implement a PWA or convert your existing web app to a PWA.&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Popular Libraries · PWA Coach"/><meta property="og:type" content="website"/><meta property="og:url" content="https://pwa.coach/index.html"/><meta property="og:description" content="&lt;p&gt;It is because of open source projects that we are able to create more abitious web applications. This document is meant to be a collection of libraries that you can use to help you implement a PWA or convert your existing web app to a PWA.&lt;/p&gt;
+"/><meta property="og:image" content="https://pwa.coach/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://pwa.coach/img/docusaurus.png"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://pwa.coach/blog/atom.xml" title="PWA Coach Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://pwa.coach/blog/feed.xml" title="PWA Coach Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><h2 class="headerTitle">PWA Coach</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/getting-started-1" target="_self">Guides</a></li><li class="siteNavGroupActive siteNavItemActive"><a href="/docs/libraries" target="_self">Docs</a></li><li class=""><a href="/help" target="_self">Contribute</a></li><li class=""><a href="/blog/" target="_self">PWAs</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Libraries</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Libraries</h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/docs/libraries">Popular Libraries</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Popular Libraries</h1></header><article><div><span><p>It is because of open source projects that we are able to create more abitious web applications. This document is meant to be a collection of libraries that you can use to help you implement a PWA or convert your existing web app to a PWA.</p>
+<table>
+<thead>
+<tr><th>Title</th><th>Author</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td><a href="https://github.com/GoogleChrome/workbox">Workbox</a></td><td>Google</td><td>Javascript Library for building progressive web apps</td></tr>
+<tr><td><a href="https://github.com/GoogleChrome/sw-precache">sw-precache</a></td><td>Google</td><td>A node module to generate service worker code that will precache specific resources</td></tr>
+<tr><td><a href="https://github.com/GoogleChrome/sw-toolbox">sw-toolbox</a></td><td>Google</td><td>A runtime caching library</td></tr>
+<tr><td><a href="https://elements.polymer-project.org/elements/platinum-sw?active=platinum-sw-register">platinum-sw-register</a></td><td>Polymer</td><td>handles service worker registration for Polymer applications</td></tr>
+<tr><td><a href="https://github.com/NekR/offline-plugin">offline-plugin</a></td><td>Nekr</td><td>Offline plugin (ServiceWorker, AppCache) for webpack (<a href="http://webpack.github.io/">http://webpack.github.io/</a>)</td></tr>
+<tr><td><a href="https://github.com/fxos-components/serviceworkerware">serviceworkerware</a></td><td>fxos</td><td>An Express-like layer on top of ServiceWorkers to provide a way to easily plug functionality</td></tr>
+<tr><td><a href="https://github.com/sdgluck/msgr">msgr</a></td><td>sdgluck</td><td>Nifty service worker/client message utility</td></tr>
+<tr><td><a href="https://github.com/TalAter/UpUp">UpUp</a></td><td>TalAter</td><td>Makes sure your users can always access your site's content, even when they're on a plane, in an elevator, or 20,000 leagues under the sea</td></tr>
+<tr><td><a href="https://github.com/sdgluck/fetch-sync">fetch-sync</a></td><td>sdgluck</td><td>Proxy Fetch requests through the Background Sync API</td></tr>
+<tr><td><a href="https://github.com/cvan/fetch-manifest">FetchManifest</a></td><td>cvan</td><td>Fetch a parsed manifest from a manifest or site URL (<a href="https://fetchmanifest.org/">online service</a>)</td></tr>
+<tr><td><a href="https://github.com/hemanth/fetch-manifest-json">fetch-manifest-json</a></td><td>hemanth</td><td>Fetch the mainfest.json from an URL.</td></tr>
+<tr><td><a href="https://github.com/vladikoff/PWAify">PWAify</a></td><td>vladikoff</td><td>CLI tool to convert your PWA into a cross-platform desktop app.</td></tr>
+<tr><td><a href="https://brucelawson.github.io/manifest/">Manifest Generator</a></td><td>brucelawson</td><td>This simple page will generate the manifest file for you.</td></tr>
+<tr><td><a href="https://github.com/gmetais/sw-delta">sw-delta</a></td><td>gmetais</td><td>An incremental cache for the web.</td></tr>
+<tr><td><a href="https://github.com/naschq/dsw">DSW</a></td><td>naschq</td><td>Generate your Service Worker dynamically, webmanifest, rules for requests, redirects, etc.</td></tr>
+<tr><td><a href="https://github.com/goldhand/sw-precache-webpack-plugin">sw-precache-webpack-plugin</a></td><td>goldhand</td><td>SW Precache Webpack Plugin</td></tr>
+<tr><td><a href="https://github.com/oliviertassinari/serviceworker-webpack-plugin">serviceworker-webpack-plugin</a></td><td>oliviertassinari</td><td>Simplifies creation of a service worker to serve your webpack bundles.</td></tr>
+<tr><td><a href="https://github.com/rossta/serviceworker-rails">serviceworker-rails</a></td><td>rossta</td><td>Plugin to integrate Service Worker with the Rails asset pipeline.</td></tr>
+</tbody>
+</table>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/pwa-logo.svg" alt="PWA Coach" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started</a><a href="/docs/en/doc2.html">Docs</a><a href="/docs/en/doc3.html">Contibute</a></div><div></div><div><h5>More</h5><a href="/blog">PWAs</a><a href="https://github.com/nicklewanowicz/pwa-coach">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 NickLewanowicz</section></footer></div></body></html>

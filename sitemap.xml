@@ -13,4 +13,6 @@
 <url> <loc>https://pwa.coach/docs/doc4</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pwa.coach/docs/doc4" /> </url>
 <url> <loc>https://pwa.coach/docs/doc5</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pwa.coach/docs/doc5" /> </url>
 <url> <loc>https://pwa.coach/docs/getting-started-1</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pwa.coach/docs/getting-started-1" /> </url>
+<url> <loc>https://pwa.coach/docs/hello-pwa</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pwa.coach/docs/hello-pwa" /> </url>
+<url> <loc>https://pwa.coach/docs/libraries</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://pwa.coach/docs/libraries" /> </url>
 </urlset>

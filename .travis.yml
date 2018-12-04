@@ -1,11 +1,16 @@
 language: node_js
 node_js:
-  - "stable"
+  - '8'
+branches:
+  only:
+    - master
 cache:
-  directories:
-  - node_modules
+  yarn: true
 script:
-  - npm --prefix website start
+  - git config --global user.name "${GH_NAME}"
+  - git config --global user.email "${GH_EMAIL}"
+  - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
+  - cd website && yarn install && GIT_USER="${GH_NAME}" yarn run publish-gh-pages
 deploy:
   provider: pages
   skip_cleanup: true

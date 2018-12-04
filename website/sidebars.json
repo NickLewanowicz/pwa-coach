@@ -1,10 +1,9 @@
 {
-  "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+  "getting-started": {
+    "Getting Started": ["getting-started-1"],
+    "Building a PWA": ["hello-pwa"]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Libraries": ["libraries"]
   }
 }

@@ -80,7 +80,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href={docUrl('doc1.html', language)}>Getting Started</Button>
+            <Button href={docUrl('getting-started-1.html', language)}>Getting Started</Button>
             <Button href='https://github.com/nicklewanowicz/pwa-coach'>Github</Button>
             <Button href={docUrl('doc2.html', language)}>Documentation</Button>
           </PromoSection>
@@ -122,8 +122,8 @@ const FeatureCallout = () => (
   <div
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <h2>Feature Callout</h2>
-    <MarkdownBlock>These are features of this project</MarkdownBlock>
+    <h2>PWA tl;dr</h2>
+    <MarkdownBlock>Native-like experiences on desktop or mobile which lead to a higher chance of recurring visits from a client.</MarkdownBlock>
   </div>
 );
 
@@ -199,6 +199,7 @@ class Index extends React.Component {
       <div>
         <HomeSplash language={language} />
         <div className="mainContainer">
+          <FeatureCallout />
           <Features />
           <LearnHow />
           <TryOut />
